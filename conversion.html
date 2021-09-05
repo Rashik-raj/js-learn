@@ -2,10 +2,13 @@
 <html>
   <body>
     <script>
-      const celcius = 5;
-      const farenheit = celcius * (9 / celcius) + 32;
-      console.log("Celcius: " + celcius);
-      console.log("Farenheit: " + farenheit);
+      function toFarenheit(celcius) {
+        const farenheit = celcius * (9 / 5) + 32;
+        console.log("Celcius: " + celcius);
+        console.log("Farenheit: " + farenheit);
+      }
+
+      toFarenheit(10);
     </script>
   </body>
 </html>
