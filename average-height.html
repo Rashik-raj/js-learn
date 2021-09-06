@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <script>
+      var heights = [123, 130, 145, 122];
+      console.log(heights);
+      heights[0] = 132;
+      heights.push(140);
+      console.log(heights);
+      var avg = 0;
+      var i = 0;
+      for (i; i < heights.length; i++) {
+        console.log(heights[i]);
+        avg += heights[i];
+      }
+      console.log(avg / heights.length);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <script>
+      var days = ["Sun", "Mon", "Tues", "Wed", "Thurs", "Fri", "Sat"];
+      for (var dayName of days) {
+        console.log(dayName);
+      }
+      for (var index = 0; index < days.length; index++) {
+        console.log(index, days[index]);
+      }
+      result = "";
+      for (var dayName of days) {
+        result += dayName + "|";
+      }
+      console.log(result);
+    </script>
+  </body>
+</html>

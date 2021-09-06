@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <script>
+      var numbers = [10, 25, 32, 48, 49, 52, 73, 78, 87, 91];
+      if (numbers.length % 2 == 0) {
+        console.log("Median cannot be calculated using simple formula");
+        upperMidIndex = numbers.length / 2;
+        lowerMidIndex = upperMidIndex - 1;
+        median = (numbers[lowerMidIndex] + numbers[upperMidIndex]) / 2;
+      } else {
+        middleIndex = (numbers.length - 1) / 2;
+        median = numbers[middleIndex];
+      }
+      console.log(median);
+    </script>
+  </body>
+</html>
